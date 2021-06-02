@@ -11,3 +11,34 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.cell {
+  border: 1px solid #999;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 15px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 15px;
+}
+.alive {
+  background: black;
+}
+.dead {
+  background: white;
+}
+.cell:focus {
+  outline: none;
+}
+.Game-Grid {
+  display: flex;
+  flex-direction: row;
+}
+.GameOfLife {
+  display: flex;
+  flex-direction: column;
+}
